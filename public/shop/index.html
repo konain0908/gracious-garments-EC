@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #4b0152;">
+        <a class="navbar-brand" href="#"><img src="../images/logo 3.png" alt="" style="width:70px; height: 10vh;"></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html"  style="color: rgb(230, 218, 151);"><b> Home</b> <span class="sr-only">(current)</span></a>
+                </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../about/index.html"  style="color:  rgb(230, 218, 151);"><b> About</b> <span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="color: rgb(230, 218, 151);"><b> Category</b></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Men</a>
+                        <a class="dropdown-item" href="#">Women</a>
+                    </div>
+                </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../shop/index.html" style="color: rgb(230, 218, 151);  "><b> Shop</b><span class="sr-only">(current)</span></a>
+                </li>
+               
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../contact/index.html"  style="color:  rgb(230, 218, 151);"><b> Contact</b> <span class="sr-only">(current)</span></a>
+                </li>
+              
+              
+            </ul>
+           <div class="icons">
+               <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+               <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+           </div>
+        </div>
+    </nav>
+
+    <div class="banner-contact">
+        <h2 style="color: rgb(230, 218, 151) ;">#Stayhome </h2>
+    </div>
+<!-- <div class="heading">
+    <h4 style="margin-left: 20px; color: #4b0152; padding-top: 30px;">Lets Buy to look good :)</h4>
+</div> -->
+
+<div class="container">
+  <div class="filter-section">
+      <div class="container-fluid">
+          <ul class="row p-0 ">
+          <div class="pro d-flex justify-content-center ">
+        <li data-filter="all"  class="col-md-2 col-sm-2 active">All</li>
+        <li data-filter="ZARA" class="col-md-2 col-sm-2">ZARA</li>
+        <li data-filter="CHANEL" class="col-md-2 col-sm-2">CHANEL</li>
+        <li data-filter="H&M" class="col-md-2 col-sm-2">H&M</li>
+        <li data-filter="VANS" class="col-md-2 col-sm-2">VANS</li>
+        
+      </div>
+      </ul>
+  </div>
+  </div>
+
+
+
+
+        <div class="products row">
+            <div class="c1 col-md-3" data-filter="ZARA">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal">
+    <img  src="../images/stylish-woman-leather-coat-black-hat-demonstrate-winter-fashion-trends-white.jpg" alt="" >
+   <h5>Esprit Ruffle shirt <i class="fa fa-heart"></i></h5>
+   <a href="#"><span>$</span>12.34546</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Esprit Ruffle shirt</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>mens t shirt</h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$12.3446</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button class="atc">add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="CHANEL">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal1">
+    <img src="../images/6.jpg" alt="">
+      <h5>Herschel supply <i class="fa fa-heart"></i></h5>
+      <a href="#"><span>$</span>15.5678</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel1">Herschel supply </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>mens t shirt</h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$15.5678</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="H&M">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal2">
+    <img src="../images/7.jpg" alt="">
+        <h5>Esprit shirt<i class="fa fa-heart"></i></h5>
+        <a href="#"><span>$</span>10.346</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Esprit shirt</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Esprit shirt </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$10.346</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="c1 col-md-3" data-filter="CHANEL">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal3">
+    <img src="../images/8.jpg" alt="">
+      <h5>shirt<i class="fa fa-heart"></i></h5>
+      <a href="#"><span>$</span>20.546</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">shirt</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Shirt </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$20.546</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="VANS">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal4">
+    <img src="../images/9.jpg" alt="">
+    <h5>Coat<i class="fa fa-heart"></i></h5>
+    <a href="#"><span>$</span>25.7806</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel4">Coat</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Coat</h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$25.7806</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="CHANEL">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal5">
+    <img src="../images/10.jpg" alt="">
+        <h5>Herschel shirt <i class="fa fa-heart"></i></h5>
+        <a href="#"><span>$</span>17.546</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel5">Herschel shirt</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Herschel shirt  </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$17.546</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="ZARA">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal6">
+    <img src="../images/11.jpg" alt="">
+          <h5>Supply ruffle <i class="fa fa-heart"></i></h5>
+          <a href="#"><span>$</span>18.946</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel6">Supply ruffle </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2> Supply ruffle  </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$18.946</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="H&M">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal7">
+    <img src="../images/12.jpg" alt="">
+            <h5>Esprit Ruffle shirt <i class="fa fa-heart"></i></h5>
+            <a href="#"><span>$</span>22.476</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel7">Esprit Ruffle shirt </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Esprit Ruffle shirt  </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$22.476</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="ZARA">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal8">
+    <img src="../images/7.jpg" alt="">
+    <h5>Colorful shirt <i class="fa fa-heart"></i></h5>
+    <a href="#"><span>$</span>3.4546</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel8">Colorful shirt</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Colorful shirt</h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$3.4546</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="CHANEL">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal9">
+    <img src="../images/9.jpg" alt="">
+        <h5>Glamorous Ruffle <i class="fa fa-heart"></i></h5>
+        <a href="#"><span>$</span>12.34546</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel9">Glamorous Ruffle</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Glamorous Ruffle </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$12.34546</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="VANS">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal10">
+    <img src="../images/stylish-woman-leather-coat-black-hat-demonstrate-winter-fashion-trends-white.jpg" alt="">
+    <h5>Cute shirt <i class="fa fa-heart"></i></h5>
+    <a href="#"><span>$</span>25.887</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel10">Cute shirt </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Cute shirt </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$25.887</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            <div class="c1 col-md-3" data-filter="CHANEL">
+                <!-- Button trigger modal -->
+<button type="button"  data-toggle="modal" data-target="#exampleModal11">
+    <img src="../images/portrait-handsome-confident-stylish-hipster-lambersexual-modelman-dressed-green-sweater-jeans-fashion-male-posing-studio-near-blue-wall.jpg" alt="">
+    <h5>Glorious Ruffle <i class="fa fa-heart"></i></h5>
+    <a href="#"><span>$</span>11.789</a>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel11">Glorious Ruffle </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Glorious Ruffle   </h2>
+            <p> Clothing designed to be worn during exercise or sports activities is referred to as activewear. Examples include yoga pants, basketball shorts, sweatshirts, tennis skirts, and other related items.</p>
+            <h3>$11.789</h3>
+            <select name="" id="">
+            <option>select size</option>
+            <option>medium</option>
+            <option>small</option>
+            <option>large</option>
+            </select>
+            <input type="number" name="" id="" value="1" style="width: 50px;">
+            <button>add to cart</button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="margin-top: 70px;">
+        <div class="frow row" style="padding-bottom: 30px;">
+          <div class="col-md-3">
+            <h3 style="margin-top: 20px;">GRACIOUS GARMENTS</h3>
+            <p style="margin-top: 10px; font-size: small;">It is a luxurious department store that carries designer clothes and accessories. They have an extensive collection of high-end fashion from top names like Prada, Gucci, and Chanel</p>
+          </div>
+          <div class="col-md-3">
+            <h3 style="margin-top: 20px;">Categories</h3>
+            <a href="" style="text-decoration: none; color: rgb(230, 218, 151);"><h5 style="margin-top: 10px;">Men</h5></a>
+            <a href="" style="text-decoration: none; color: rgb(230, 218, 151);"><h5 style="margin-top: 10px; ">Women</h5></a>
+          </div>
+          <div class="col-md-3">
+            <h3 style="margin-top: 20px;">Get in touch</h3>
+            <p style="margin-top: 10px; font-size: small;">Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</p>
+            <div class="ficons">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h3 style="margin-top: 20px;">Newsletter</h3>
+            <input type="text" value="" placeholder="email@example.com" style="background-color: #4b0152; color: rgb(230, 218, 151) ; padding: 15px; margin-top: 10px; font-size: small;">
+           <div class="btn">
+            <button style="padding: 15px; border-radius: 20px; font-size: small; background-color:rgb(230, 218, 151) ; color: #4b0152; font-weight: 500;">Subscribe</button>
+           </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        const items = document.querySelectorAll("ul .pro li");
+        const product = document.querySelectorAll(".products .c1");
+        const product2 = document.querySelectorAll(".products");
+        
+        items.forEach((item) => {
+        // Active
+        item.addEventListener("click", () => {
+        items.forEach((item) => {
+            item.classList.remove("active");
+        });
+        item.classList.add("active");
+        
+        // Filter
+        const valueAttr = item.getAttribute("data-filter");
+        product.forEach((item) => {
+            item.style.display = "none";
+            if (
+            item.getAttribute("data-filter").toLowerCase() ==
+                valueAttr.toLowerCase() ||
+            valueAttr == "all"
+            ) {
+            item.style.display = "flex";
+            }
+        });
+        });
+        });
+        </script>
+      
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

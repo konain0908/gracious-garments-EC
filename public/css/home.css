@@ -1,0 +1,83 @@
+.icons i{
+    text-decoration: none;
+    color:  rgb(230, 218, 151);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+i:hover{
+    color: rgb(206, 150, 223);
+    
+}
+.navbar{
+    font-size: 15px;
+    height: 80px;
+   
+}
+.row{
+    margin: 20px;
+}
+.women{
+   margin-left: 80px;
+   margin-right: 80px;
+}
+.men{
+    margin-left: 80px;
+    margin-right: 80px;
+ }
+ .row{
+    justify-content: center;
+ }
+/* .men:hover{
+   background-color:wheat; 
+}
+.women:hover{
+    background-color: wheat;
+} */
+.heading{
+    font-weight: bolder;
+}
+.c1 img
+{
+    margin-bottom: 30px;
+    height: 40vh;
+  width: 100%;
+}
+.c1 h5
+{
+    color: rgb(185, 185, 185);
+    font-size: 20px;
+}
+
+.c1 i
+{
+color: rgb(148, 148, 148); 
+  margin-left: 50px;
+}
+.c1 a{
+    font-size: medium;
+}
+/* .ficons i{
+
+    padding: 10px;
+    font-size: medium;
+   
+    justify-content: right;
+}
+.frow1{
+    background-color: #4b0152;
+    color: rgb(230, 218, 151);
+}
+.frow2{
+    background-color: #600668;
+    margin-top: 0;
+} */
+.frow{
+    background-color: #4b0152 ;
+    color: rgb(230, 218, 151);
+}
+.ficons i{
+
+    padding: 10px;
+    font-size: medium;
+   
+    justify-content: right;}
