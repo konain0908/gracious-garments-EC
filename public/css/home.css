@@ -1,76 +1,41 @@
-.icons i{
-    text-decoration: none;
-    color:  rgb(230, 218, 151);
-    padding-left: 10px;
-    padding-right: 10px;
-}
-i:hover{
-    color: rgb(206, 150, 223);
-    
-}
-.navbar{
-    font-size: 15px;
-    height: 80px;
-   
-}
-.row{
-    margin: 20px;
-}
-.women{
-   margin-left: 80px;
-   margin-right: 80px;
-}
-.men{
-    margin-left: 80px;
-    margin-right: 80px;
- }
- .row{
-    justify-content: center;
- }
-/* .men:hover{
-   background-color:wheat; 
-}
-.women:hover{
-    background-color: wheat;
-} */
-.heading{
-    font-weight: bolder;
-}
-.c1 img
-{
-    margin-bottom: 30px;
-    height: 40vh;
-  width: 100%;
-}
-.c1 h5
-{
-    color: rgb(185, 185, 185);
-    font-size: 20px;
+/* Default styles */
+.wrapper {
+    display: block; /* Show wrapper (carousel) by default */
 }
 
-.c1 i
-{
-color: rgb(148, 148, 148); 
-  margin-left: 50px;
+.banner-home {
+    display: none; /* Hide banner-home by default */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url(../images/13.jpg);
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
 }
-.c1 a{
-    font-size: medium;
-}
-/* .ficons i{
 
-    padding: 10px;
-    font-size: medium;
-   
-    justify-content: right;
-}
-.frow1{
-    background-color: #4b0152;
+.banner-home h2 {
     color: rgb(230, 218, 151);
+    margin: 0;
 }
-.frow2{
-    background-color: #600668;
-    margin-top: 0;
-} */
+
+/* Media Query for Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+    .wrapper {
+        display: none !important; /* Force hide wrapper on mobile devices */
+    }
+
+    .banner-home {
+        display: block; /* Show banner-home on mobile devices */
+    }
+
+}
+
+.icons i{
+    color:rgb(230, 218, 151);
+    padding: 5px;
+}
 .frow{
     background-color: #4b0152 ;
     color: rgb(230, 218, 151);
@@ -80,4 +45,4 @@ color: rgb(148, 148, 148);
     padding: 10px;
     font-size: medium;
    
-    justify-content: right;}
+    justify-content: right;} 

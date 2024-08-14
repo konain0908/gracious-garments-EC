@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Home-GC</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -50,85 +50,43 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm" style="background-color: #4b0152">
-      <a class="navbar-brand" href="#"
-        ><img
-          src="../public/images/logo 3.png"
-          alt=""
-          style="width: 70px; height: 10vh"
-      /></a>
-      <button
-        class="navbar-toggler d-lg-none"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavId"
-        aria-controls="collapsibleNavId"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4b0152;">
+      <a class="navbar-brand" href="#">
+          <img src="./images/logo_3.png" alt="Logo" style="width: 70px; height: auto;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a
-              class="nav-link"
-              href="../build/index.html"
-              style="color: rgb(230, 218, 151)"
-              ><b> Home</b> <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item active">
-            <a
-              class="nav-link"
-              href="./about/index.html"
-              style="color: rgb(230, 218, 151)"
-              ><b> About</b> <span class="sr-only">(current)</span></a
-            >
-          </li>
-
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="dropdownId"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              style="color: rgb(230, 218, 151)"
-              ><b> Category</b></a
-            >
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="#">Men</a>
-              <a class="dropdown-item" href="#">Women</a>
-            </div>
-          </li>
-          <li class="nav-item active">
-            <a
-              class="nav-link"
-              href="../public/shop/index.html"
-              style="color: rgb(230, 218, 151)"
-              ><b> Shop</b><span class="sr-only">(current)</span></a
-            >
-          </li>
-
-          <li class="nav-item active">
-            <a
-              class="nav-link"
-              href="../public/contact/index.html"
-              style="color: rgb(230, 218, 151)"
-              ><b> Contact</b> <span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
-        <div class="icons">
-          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-        </div>
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="./index.html" style="color: rgb(230, 218, 151);"><b>Home</b> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="./about/index.html" style="color: rgb(230, 218, 151);"><b>About</b> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(230, 218, 151);"><b>Category</b></a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                      <a class="dropdown-item" href="#">Men</a>
+                      <a class="dropdown-item" href="#">Women</a>
+                  </div>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="./shop/index.html" style="color: rgb(230, 218, 151);"><b>Shop</b><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="./contact/index.html" style="color: rgb(230, 218, 151);"><b>Contact</b> <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+          <div class="icons d-none d-md-flex">
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
       </div>
-    </nav>
+  </nav>
 
-    <!-- carousel start  -->
+    <!-- carousel desktop view me show hoga mobile view me nhi hoga  -->
 
     <div class="wrapper">
       <div class="content">
@@ -294,6 +252,10 @@
     </svg>
 
     <!-- carousel end -->
+
+    <div class="banner-home">
+      <h2 style="color: rgb(230, 218, 151) ;">Buy Clothes Now </h2>
+  </div>
     <div class="container-fluid">
       <div class="row text-center">
         <div class="women col-md-3 m-5" style="border: 5px solid wheat">
@@ -413,15 +375,15 @@
     <div class="container-fluid" style="margin-top: 70px">
       <div class="frow row" style="padding-bottom: 30px">
         <div class="col-md-3">
-          <h3 style="margin-top: 20px">GRACIOUS GARMENTS</h3>
-          <p style="margin-top: 10px; font-size: small">
+          <h3 style="margin-top: 20px; font-weight: 700;">GRACIOUS GARMENTS</h3>
+          <p style="margin-top: 10px; font-size: small; color:rgb(230, 218, 151);  font-size: small;">
             It is a luxurious department store that carries designer clothes and
             accessories. They have an extensive collection of high-end fashion
             from top names like Prada, Gucci, and Chanel
           </p>
         </div>
         <div class="col-md-3">
-          <h3 style="margin-top: 20px">Categories</h3>
+          <h3 style="margin-top: 20px; font-weight: 700;">Categories</h3>
           <a href="" style="text-decoration: none; color: rgb(230, 218, 151)">
             <h5 style="margin-top: 10px">Men</h5>
           </a>
@@ -430,8 +392,8 @@
           </a>
         </div>
         <div class="col-md-3">
-          <h3 style="margin-top: 20px">Get in touch</h3>
-          <p style="margin-top: 10px; font-size: small">
+          <h3 style="margin-top: 20px; font-weight: 700;">Get in touch</h3>
+          <p style="margin-top: 10px; font-size: small;color: rgb(230, 218, 151);">
             Any questions? Let us know in store at 8th floor, 379 Hudson St, New
             York, NY 10018 or call us on (+1) 96 716 6879
           </p>
